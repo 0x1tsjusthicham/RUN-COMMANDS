@@ -17,4 +17,4 @@ for network_name in network_name_lists:
     current_result = subprocess.check_output(command, shell = True)
     result = result + current_result
 
-send_mail("", "", message=result)
+send_mail("", "", result)
